@@ -16,7 +16,7 @@ DisableWebSearch                # EnableWebSearch
 DisableAppSuggestions           # EnableAppSuggestions
 DisableActivityHistory          # EnableActivityHistory
 DisableBackgroundApps           # EnableBackgroundApps
-# DisableSensors                # EnableSensors
+DisableSensors                # EnableSensors
 DisableLocation                 # EnableLocation
 DisableMapUpdates               # EnableMapUpdates
 DisableFeedback                 # EnableFeedback
@@ -24,8 +24,8 @@ DisableTailoredExperiences      # EnableTailoredExperiences
 DisableAdvertisingID            # EnableAdvertisingID
 DisableWebLangList              # EnableWebLangList
 DisableCortana                  # EnableCortana
-# DisableBiometrics             # EnableBiometrics
-# DisableCamera                 # EnableCamera
+DisableBiometrics             # EnableBiometrics
+DisableCamera                 # EnableCamera
 DisableErrorReporting           # EnableErrorReporting
 SetP2PUpdateDisable           # SetP2PUpdateLocal             # SetP2PUpdateInternet          
 DisableDiagTrack                # EnableDiagTrack
@@ -44,7 +44,7 @@ DisableSMB1                   # EnableSMB1
 # DisableNCSIProbe              # EnableNCSIProbe
 # SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # SetUnknownNetworksPrivate     # SetUnknownNetworksPublic
-# DisableConnectionSharing      # EnableConnectionSharing
+DisableConnectionSharing      # EnableConnectionSharing
 DisableNetDevicesAutoInst     # EnableNetDevicesAutoInst
 # DisableFirewall               # EnableFirewall
 # HideDefenderTrayIcon          # ShowDefenderTrayIcon
@@ -66,7 +66,7 @@ EnableF8BootMenu                # DisableF8BootMenu
 ### Service Tweaks ###
 DisableUpdateMSRT             # EnableUpdateMSRT
 # DisableUpdateDriver           # EnableUpdateDriver
-EnableUpdateMSProducts          # DisableUpdateMSProducts
+DisableUpdateMSProducts          # EnableUpdateMSProducts
 # DisableUpdateAutoDownload     # EnableUpdateAutoDownload
 DisableMaintenanceWakeUp        # EnableMaintenanceWakeUp
 # DisableHomeGroups             # EnableHomeGroups
@@ -179,7 +179,7 @@ UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
 # UninstallWindowsStore         # InstallWindowsStore
 # EnableXboxFeatures             # DisableXboxFeatures
-# DisableFullscreenOptims       # EnableFullscreenOptims
+DisableFullscreenOptims       # EnableFullscreenOptims
 DisableAdobeFlash               # EnableAdobeFlash
 DisableEdgePreload              # EnableEdgePreload
 DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
