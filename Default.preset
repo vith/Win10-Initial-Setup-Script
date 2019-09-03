@@ -32,7 +32,7 @@ DisableWAPPush                  # EnableWAPPush
 
 ### Security Tweaks ###
 SetUACLow                     # SetUACHigh
-# EnableSharingMappedDrives     # DisableSharingMappedDrives
+EnableSharingMappedDrives     # DisableSharingMappedDrives
 DisableAdminShares              # EnableAdminShares
 DisableSMB1                   # EnableSMB1
 # DisableSMBServer              # EnableSMBServer
@@ -51,7 +51,7 @@ DisableDefenderCloud          # EnableDefenderCloud
 # EnableDefenderAppGuard        # DisableDefenderAppGuard
 HideAccountProtectionWarn       # ShowAccountProtectionWarn
 DisableDownloadBlocking       # EnableDownloadBlocking
-DisableScriptHost               # EnableScriptHost
+EnableScriptHost               # DisableScriptHost
 EnableDotNetStrongCrypto        # DisableDotNetStrongCrypto
 # EnableMeltdownCompatFlag      # DisableMeltdownCompatFlag
 EnableF8BootMenu                # DisableF8BootMenu
@@ -139,26 +139,26 @@ EnableNavPaneExpand             # DisableNavPaneExpand
 # HideSelectCheckboxes          # ShowSelectCheckboxes
 HideSyncNotifications           # ShowSyncNotifications
 HideRecentShortcuts             # ShowRecentShortcuts
-# SetExplorerThisPC               # SetExplorerQuickAccess
+SetExplorerThisPC               # SetExplorerQuickAccess
 # HideQuickAccess                 # ShowQuickAccess
-# HideRecycleBinFromDesktop     # ShowRecycleBinOnDesktop
+HideRecycleBinFromDesktop     # ShowRecycleBinOnDesktop
 # ShowThisPCOnDesktop             # HideThisPCFromDesktop
 # ShowUserFolderOnDesktop       # HideUserFolderFromDesktop
 # ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
 # ShowNetworkOnDesktop          # HideNetworkFromDesktop
-# HideDesktopFromThisPC           # ShowDesktopInThisPC
+HideDesktopFromThisPC           # ShowDesktopInThisPC
 # HideDesktopFromExplorer       # ShowDesktopInExplorer
-# HideDocumentsFromThisPC         # ShowDocumentsInThisPC
+HideDocumentsFromThisPC         # ShowDocumentsInThisPC
 # HideDocumentsFromExplorer     # ShowDocumentsInExplorer
-# HideDownloadsFromThisPC         # ShowDownloadsInThisPC
+HideDownloadsFromThisPC         # ShowDownloadsInThisPC
 # HideDownloadsFromExplorer     # ShowDownloadsInExplorer
-# HideMusicFromThisPC             # ShowMusicInThisPC
+HideMusicFromThisPC             # ShowMusicInThisPC
 # HideMusicFromExplorer         # ShowMusicInExplorer
-# HidePicturesFromThisPC          # ShowPicturesInThisPC
+HidePicturesFromThisPC          # ShowPicturesInThisPC
 # HidePicturesFromExplorer      # ShowPicturesInExplorer
-# HideVideosFromThisPC            # ShowVideosInThisPC
+HideVideosFromThisPC            # ShowVideosInThisPC
 # HideVideosFromExplorer        # ShowVideosInExplorer
-# Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
+Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
 # Hide3DObjectsFromExplorer     # Show3DObjectsInExplorer
 # HideIncludeInLibraryMenu      # ShowIncludeInLibraryMenu
 # HideGiveAccessToMenu          # ShowGiveAccessToMenu
@@ -173,7 +173,7 @@ UninstallOneDrive               # InstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
 # UninstallWindowsStore         # InstallWindowsStore
-# DisableXboxFeatures             # EnableXboxFeatures
+# EnableXboxFeatures             # DisableXboxFeatures
 DisableAdobeFlash               # EnableAdobeFlash
 DisableEdgePreload              # EnableEdgePreload
 DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
@@ -207,4 +207,4 @@ RemoveFaxPrinter                # AddFaxPrinter
 
 ### Auxiliary Functions ###
 WaitForKey
-Restart
+# Restart
