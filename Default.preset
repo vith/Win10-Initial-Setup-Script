@@ -204,7 +204,7 @@ EnableDeveloperMode           # DisableDeveloperMode
 # UninstallMediaPlayer          # InstallMediaPlayer
 # UninstallInternetExplorer     # InstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
-# UninstallHelloFace            # InstallHelloFace
+UninstallHelloFace            # InstallHelloFace
 # UninstallMathRecognizer       # InstallMathRecognizer
 # UninstallPowerShellV2         # InstallPowerShellV2
 # UninstallPowerShellISE        # InstallPowerShellISE
