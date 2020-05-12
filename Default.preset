@@ -25,7 +25,7 @@ DisableAdvertisingID            # EnableAdvertisingID
 DisableWebLangList              # EnableWebLangList
 DisableCortana                  # EnableCortana
 DisableBiometrics             # EnableBiometrics
-DisableCamera                 # EnableCamera
+EnableCamera                 # DisableCamera
 # DisableMicrophone             # EnableMicrophone
 DisableErrorReporting           # EnableErrorReporting
 SetP2PUpdateDisable           # SetP2PUpdateLocal             # SetP2PUpdateInternet          
